@@ -172,7 +172,7 @@ def istft(
         1
     )  # size (n_fft, 1, n_fft)
     
-    if n_frames % 2 == 0:
+    if n_frame % 2 == 0:
         output_padding = 1
     else:
         output_padding = 0
